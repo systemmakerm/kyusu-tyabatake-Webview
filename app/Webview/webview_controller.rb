@@ -5,7 +5,7 @@ class WebviewController < Rho::RhoController
   include BrowserHelper
 
   def index
-    render :back => '/app'
+    render
   end
   
   #画面を更新させる
