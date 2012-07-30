@@ -1,0 +1,23 @@
+sdkversion: 3.3.3
+name: Webview
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.1
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.webview
+  BundleURLScheme: webview
+wp:
+  productid: 'aba6be20-bc4a-012f-2a56-1040f37b2b30'
+symbian:
+  uid: '0xed7181e2'
+android:
+  version: 2.3
+
+extensions: ["json", "another-extension"]
